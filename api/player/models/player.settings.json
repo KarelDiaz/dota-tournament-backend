@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "name": "Player"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "elo": {
+      "type": "decimal"
+    },
+    "nick": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "num_plays": {
+      "type": "integer"
+    },
+    "num_plays_win": {
+      "type": "integer"
+    }
+  }
+}

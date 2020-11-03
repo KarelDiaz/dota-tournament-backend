@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plays",
+  "info": {
+    "name": "Play"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "player_results": {
+      "collection": "player-result"
+    },
+    "side_win": {
+      "type": "string"
+    }
+  }
+}

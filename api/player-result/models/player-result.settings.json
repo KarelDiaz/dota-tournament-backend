@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "player_results",
+  "info": {
+    "name": "PlayerResult"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "player": {
+      "model": "player"
+    },
+    "kills": {
+      "type": "integer"
+    },
+    "deths": {
+      "type": "integer"
+    },
+    "asist": {
+      "type": "integer"
+    },
+    "side": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    },
+    "win": {
+      "type": "boolean"
+    },
+    "bot": {
+      "type": "boolean"
+    },
+    "hero": {
+      "model": "hero"
+    },
+    "elo": {
+      "type": "decimal"
+    },
+    "eloPlus": {
+      "type": "decimal"
+    }
+  }
+}
