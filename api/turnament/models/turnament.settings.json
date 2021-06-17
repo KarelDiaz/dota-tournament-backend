@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "turnaments",
+  "info": {
+    "name": "Turnament"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "teams": {
+      "collection": "team",
+      "via": "turnament"
+    },
+    "ended": {
+      "type": "boolean"
+    }
+  }
+}

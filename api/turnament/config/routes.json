@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/turnaments",
+      "handler": "turnament.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/turnaments/count",
+      "handler": "turnament.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/turnaments/:id",
+      "handler": "turnament.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/turnaments",
+      "handler": "turnament.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/turnaments/:id",
+      "handler": "turnament.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/turnaments/:id",
+      "handler": "turnament.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

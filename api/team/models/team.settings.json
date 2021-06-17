@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "name": "Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "players": {
+      "collection": "player"
+    },
+    "name": {
+      "type": "string"
+    },
+    "turnament": {
+      "via": "teams",
+      "model": "turnament"
+    }
+  }
+}
