@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tournament_plays",
+  "info": {
+    "name": "TournamentPlays"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "play": {
+      "model": "play"
+    },
+    "tournament": {
+      "model": "tournament"
+    }
+  }
+}

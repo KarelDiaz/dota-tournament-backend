@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/turnaments",
-      "handler": "turnament.find",
+      "path": "/tournament-types",
+      "handler": "tournament-types.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/turnaments/count",
-      "handler": "turnament.count",
+      "path": "/tournament-types/count",
+      "handler": "tournament-types.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/turnaments/:id",
-      "handler": "turnament.findOne",
+      "path": "/tournament-types/:id",
+      "handler": "tournament-types.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/turnaments",
-      "handler": "turnament.create",
+      "path": "/tournament-types",
+      "handler": "tournament-types.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/turnaments/:id",
-      "handler": "turnament.update",
+      "path": "/tournament-types/:id",
+      "handler": "tournament-types.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/turnaments/:id",
-      "handler": "turnament.delete",
+      "path": "/tournament-types/:id",
+      "handler": "tournament-types.delete",
       "config": {
         "policies": []
       }

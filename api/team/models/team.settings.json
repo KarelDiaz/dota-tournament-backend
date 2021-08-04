@@ -14,10 +14,6 @@
     },
     "name": {
       "type": "string"
-    },
-    "turnament": {
-      "via": "teams",
-      "model": "turnament"
     }
   }
 }

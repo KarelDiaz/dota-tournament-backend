@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tournament-plays",
+      "handler": "tournament-plays.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tournament-plays/count",
+      "handler": "tournament-plays.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tournament-plays/:id",
+      "handler": "tournament-plays.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tournament-plays",
+      "handler": "tournament-plays.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tournament-plays/:id",
+      "handler": "tournament-plays.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tournament-plays/:id",
+      "handler": "tournament-plays.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "turnaments",
+  "collectionName": "tournament_types",
   "info": {
-    "name": "Turnament"
+    "name": "TournamentTypes"
   },
   "options": {
     "increments": true,
@@ -12,12 +12,9 @@
     "name": {
       "type": "string"
     },
-    "teams": {
-      "collection": "team",
-      "via": "turnament"
-    },
-    "ended": {
-      "type": "boolean"
+    "tournaments": {
+      "via": "type",
+      "collection": "tournament"
     }
   }
 }

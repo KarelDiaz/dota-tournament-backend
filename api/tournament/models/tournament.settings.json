@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tournaments",
+  "info": {
+    "name": "Tournament"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "ended": {
+      "type": "boolean"
+    },
+    "teams": {
+      "collection": "team"
+    },
+    "type": {
+      "model": "tournament-types",
+      "via": "tournaments"
+    }
+  }
+}
