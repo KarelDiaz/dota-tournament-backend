@@ -2,18 +2,24 @@
   "kind": "collectionType",
   "collectionName": "tournament_plays",
   "info": {
-    "name": "TournamentPlays"
+    "name": "TournamentPlay"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
+    "tournament": {
+      "model": "tournament"
+    },
     "play": {
       "model": "play"
     },
-    "tournament": {
-      "model": "tournament"
+    "teamGood": {
+      "model": "team"
+    },
+    "teamBad": {
+      "model": "team"
     }
   }
 }
