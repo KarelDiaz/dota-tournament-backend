@@ -9,7 +9,7 @@ This is the administration panel. This system manage the data and the business l
 
 ## Requirments
 To run the application you should have MongoDB server in your computer.
-Install in [window](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/) or [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/).
+Install in [Window](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/) or [Linux](https://docs.mongodb.com/manual/administration/install-on-linux/).
 
  ## Setup
 ```
