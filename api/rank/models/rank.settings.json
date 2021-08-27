@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ranks",
+  "info": {
+    "name": "Rank"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "min": {
+      "type": "integer"
+    },
+    "max": {
+      "type": "integer"
+    }
+  }
+}

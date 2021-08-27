@@ -36,10 +36,10 @@
     "hero": {
       "model": "hero"
     },
-    "elo": {
+    "mmr": {
       "type": "decimal"
     },
-    "eloPlus": {
+    "mmrPlus": {
       "type": "decimal"
     }
   }

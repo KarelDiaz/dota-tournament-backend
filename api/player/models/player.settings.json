@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "elo": {
+    "mmr": {
       "type": "decimal"
     },
     "nick": {
